@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+    <script src="client.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Salary Calculator</h1>
+
+    </header>
+    <div id="inputContainer">
+        <h2>Add Employees</h2>
+        <input type="text" placeholder="First Name" id="firstNameInp">
+        <input type="text" placeholder="Last Name" id="lastNameInp">
+        <input type="text" placeholder="ID" id="idInp">
+        <input type="Title" placeholder="Title" id="titleInp">
+        <input type="Annual" placeholder="Annual" id="annualInp">
+        <button id="submitButton">Submit</button>
+    </div>
+    <div id="tableContainer">
+        <h2>Employees</h2>
+        <table class="table table-hover table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">First Name</th>
+                    <th scope="col">Last Name</th>
+                    <th scope="col">ID</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Annual</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody id="theTable">
+            </tbody>
+        </table>
+    </div>
+<h2 id="totalMonthly">Total Monthly: $15,500</h2>
+</body>
+
+</html>
