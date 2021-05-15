@@ -17,15 +17,16 @@
         <h1>Salary Calculator</h1>
 
     </header>
-    <div id="inputContainer">
+
         <h2>Add Employees</h2>
-        <input type="text" placeholder="First Name" id="firstNameInp">
-        <input type="text" placeholder="Last Name" id="lastNameInp">
-        <input type="text" placeholder="ID" id="idInp">
-        <input type="Title" placeholder="Title" id="titleInp">
-        <input type="Annual" placeholder="Annual" id="annualInp">
-        <button id="submitButton">Submit</button>
+        <div id="inputContainer" class="input-group-text">
+        <input  type="text" placeholder="First Name" id="firstNameInp" class="inpBox form-control">
+        <input type="text" placeholder="Last Name" id="lastNameInp" class="inpBox form-control">
+        <input type="text" placeholder="ID" id="idInp" class="inpBox form-control">
+        <input type="Title" placeholder="Title" id="titleInp" class="inpBox form-control">
+        <input type="Annual" placeholder="Annual" id="annualInp" class="inpBox form-control">
     </div>
+    <button id="submitButton" class="btn btn-primary">Submit</button>
     <div id="tableContainer">
         <h2>Employees</h2>
         <table class="table table-hover table-striped">
@@ -43,7 +44,7 @@
             </tbody>
         </table>
     </div>
-<h2 id="totalMonthly">Total Monthly: $15,500</h2>
+<h2 id="totalMonthly">Total Monthly: $0</h2>
 </body>
 
 </html>
